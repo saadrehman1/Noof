@@ -12,7 +12,10 @@ export class Profile extends Component {
     return (
       <div className="bg-light">
         <NavMenu></NavMenu>
-        <div class="container-lg text-dark" style={{ position: "relative" }}>
+        <div
+          className="container-lg text-dark"
+          style={{ position: "relative" }}
+        >
           <img
             src={pic5}
             style={{
@@ -24,13 +27,13 @@ export class Profile extends Component {
             className="banner"
           ></img>
           <div
-            class="coloumn container-lg  shadow p-3 mb-5"
+            className="coloumn container-lg  shadow p-3 mb-5"
             style={{ backgroundColor: "lightgray" }}
           >
-            <div class="row"></div>
-            <div class="row">
+            <div className="row"></div>
+            <div className="row">
               <h2
-                class=" w-100 p-3 text-dark"
+                className=" w-100 p-3 text-dark"
                 style={{
                   textAlign: "center",
                   marginTop: "40PX",
@@ -40,27 +43,27 @@ export class Profile extends Component {
                 USER PROFILE
               </h2>
             </div>
-            <div class="row">
+            <div className="row">
               <div
-                class="container-sm  shadow p-3 mb-5 bg-body rounded bg-light text-dark "
+                className="container-sm  shadow p-3 mb-5 bg-body rounded bg-light text-dark "
                 style={{
                   width: "530px",
                   marginTop: "100PX",
                 }}
               ></div>
             </div>
-            <div class="row">
-              <div class="mx-auto" style={{ width: "370px" }}>
+            <div className="row">
+              <div className="mx-auto" style={{ width: "370px" }}>
                 <Profilecircle />
               </div>
             </div>
             <br></br>
 
-            <div class="row">
-              <div class="mx-auto" style={{ width: "80px" }}>
+            <div className="row">
+              <div className="mx-auto" style={{ width: "80px" }}>
                 <img
                   src={twi}
-                  class="rounded-circle "
+                  className="rounded-circle "
                   alt="..."
                   style={{
                     width: "50px",
@@ -73,9 +76,9 @@ export class Profile extends Component {
               </div>
             </div>
 
-            <div class="row">
+            <div className="row">
               <div
-                class="container shadow-sm p-3 mb-5 bg-body rounded bg-light text-dark"
+                className="container shadow-sm p-3 mb-5 bg-body rounded bg-light text-dark"
                 style={{ width: "600px", marginTop: "35PX" }}
               >
                 <br></br>Lorem Ipsum is simply dummy text of the printing and
@@ -97,13 +100,16 @@ export class Profile extends Component {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <h2 class=" w-100 p-3 text-dark " style={{ textAlign: "center" }}>
+            <div className="row">
+              <h2
+                className=" w-100 p-3 text-dark "
+                style={{ textAlign: "center" }}
+              >
                 I'm A Professional Lady
               </h2>
             </div>
-            <div class="row w-100 p-3 ">
-              <div class="col">
+            <div className="row w-100 p-3 ">
+              <div className="col">
                 <div>
                   <h4 className="text-center">The Skills</h4>
                   <h4 className="text-center">I Have</h4>
@@ -121,14 +127,14 @@ export class Profile extends Component {
                   </p>
                 </div>
               </div>
-              <div class="col">
-                <div class="container-sm">
+              <div className="col">
+                <div className="container-sm">
                   <div>
-                    <h4 className="text-center">The Skills</h4>
+                    <h4 classNameName="text-center">The Skills</h4>
                     <h4 className="text-center">
                       I Am Hoping To Find In Collaborators
                     </h4>
-                    <p class=" w-100 p-3 text-dark ">
+                    <p className=" w-100 p-3 text-dark ">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

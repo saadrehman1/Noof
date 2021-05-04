@@ -4,7 +4,7 @@ import Profile from "../components/Profile";
 function ProfilePage(props) {
   return (
     <div>
-      <Profile></Profile>
+      <Profile/>
     </div>
   );
 }
